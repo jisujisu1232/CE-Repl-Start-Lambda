@@ -5,6 +5,7 @@ CloudWatch Event 5min - Lambda
 
 
 ##yaml
+```
 username : cloudendure email
 password : cloudendure password
 location_infos:
@@ -62,10 +63,10 @@ location_infos:
             - hostname1
             ...
             - hostnameN
-
+```
 ##replication Log pattern
 
-
+```
 ************************
 * Login to CloudEndure *
 ************************
@@ -102,13 +103,14 @@ Location : DC2, max_replication_num : 1
 ************************
 *   END Replication  *
 ************************
-
+```
 
 
 
 ## 1.Blueprint Setting
 Migration Factory 로 대체
 ##Input yaml
+```
 username : {cloudendure email}
 password : {cloudendure password}
 project_infos:
@@ -118,5 +120,6 @@ project_infos:
     {project Name N}:
         sandbox_subnet_id : {subnet id}
         security_group_id : {sg id1,sg id2...,sg idN}
+```
 ## 실행 명령어
 CloudEndure.py --configfile real_testblueprint.yaml --type testblueprint
