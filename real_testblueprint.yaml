@@ -1,0 +1,16 @@
+username : user
+password : pw
+custom_tags:
+    TagKey1 : value1
+    TagKey2 : #value None
+project_infos:
+    project1:
+        sandbox_subnet_id : subnet-123123123
+        security_group_ids : [sg-123123123]
+        project_custom_tags :
+            TagKey3 : value3
+            TagKey4 : #value None
+    project2:
+        sandbox_subnet_id : subnet-321321312
+        security_group_ids : [sg-3123123123]
+        project_custom_tags : #None
