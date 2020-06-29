@@ -1,0 +1,25 @@
+username : user
+password : pw
+location_infos:
+    DC_name1:
+        office_hours :
+            - '08:00'
+            - '19:00'
+        office_hours_max_replication_num : 4
+        max_replication_num : 8
+        project_list :
+            - project1
+            - project2
+        priority_hostname_list:
+        except_hostname_list :
+    DC_name2:
+        office_hours :
+            - '08:00'
+            - '19:00'
+        office_hours_max_replication_num : 2
+        max_replication_num : 4
+        project_list :
+            - project101
+            - project102
+        priority_hostname_list :
+        except_hostname_list :
